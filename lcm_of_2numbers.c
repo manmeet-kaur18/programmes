@@ -3,6 +3,7 @@ int hcf(int,int);
 int main()
 {
 int a,b,z,c,d,lcm;
+printf("enter 2 nos.");
 scanf("%d %d",&a,&b);
 z=hcf(a,b);
 c=a/z;
