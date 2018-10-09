@@ -47,4 +47,41 @@ return h;
 }
 }
 
-
+/*
+int hcf(int a, int b)
+int h;
+if (a>b)
+{
+	for (int i=1; i<=b; i++)
+		if (a%b==0)
+		{
+			h=b;
+			break;
+		}
+		else
+		{
+			int c=b;
+			b=a%b;
+			a=b;
+		}
+}
+else if (b>a)
+{
+	for (int i=1; i<=a; i++)
+		if (b%a==0)
+		{
+			h=a;
+			break;
+		}
+		else
+		{
+			int c=a;
+			a=b%a;
+			b=a;
+		}
+}
+else
+{
+	h=a;
+}
+*/
