@@ -1,4 +1,5 @@
-include<stdio.h>
+//Nice code, Good try
+#include<stdio.h>
 int hcf(int,int);
 int main()
 {
