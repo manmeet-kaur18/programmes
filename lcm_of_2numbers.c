@@ -45,6 +45,7 @@ max=i;
 h=max;
 return h;
 }
+printf("please write in short.");
 }
 
 
