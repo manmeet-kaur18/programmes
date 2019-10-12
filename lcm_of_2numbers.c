@@ -2,14 +2,14 @@ include<stdio.h>
 int hcf(int,int);
 int main()
 {
-int a,b,z,c,d,lcm;
-printf("enter 2 nos.");
+int a,b,g,c,d,lcm;
+printf("enter 2 numbers");
 scanf("%d %d",&a,&b);
-z=hcf(a,b);
-c=a/z;
-d=b/z;
-lcm=c*d*z;
-printf("the lcm of nos is %d",lcm);
+g=hcf(a,b);
+c=a/g;
+d=b/g;
+lcm=c*d*g;
+printf("the lcm of numbers is %d",lcm);
 return 0;
 }
 int hcf(int a, int b)
